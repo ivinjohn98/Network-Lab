@@ -1,0 +1,31 @@
+int[] myarray = new int[3];
+int[] myarray = {1,2,3,4,5,6};
+int[] myarray = new int[]{1,2,4,5};
+System.out.println();
+for(int element : myarray){}
+
+String mysting = "Hello" + "world";//+ indicates concatination
+System.out.println(mystring); 	//prints the lenht of the string
+int strlen = mystring.lenght();
+String x = mystring.toLowerCase();
+String y = mystring.toUpperCase();
+System.out.println(mystring.replace(oldchar,newchar));//eg like 'e','a'
+System.out.println(mystring.indexof('o')); //prints 4;
+
+String s =  "word";
+String ss = "wordierword";
+s.startsWith("word")	//boolean retrun
+ss.endsWith("word")	//boolean return
+s.equals(ss)		//boolean return
+s.equalsIgnoreCase(ss)	//boolean return
+s.concat(ss);		//String return
+System.out.println(s.charAt(3));	// d
+ss.indexOf('r')				// 2
+ss.indexOf('r',4)			// 6
+ss.indexOf('rd',1)			// 2
+ss.substring(3)				// dierword
+ss.substring(3,7)			// dier
+s.trim()				// removes additional spaces
+client sents a broadcast message
+server closes all clients
+client to client through client
